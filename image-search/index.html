@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000; user-scalable=0" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>Imagify-App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="main">
+                <div class="atom">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+                <h1 class="h1"><span class="auto-type">Imagify</span></h1>
+            </div>
+        </div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+
+    </nav>
+    <!-- <div class="slideshow">
+        <div class="imgSlider">
+            <div class="card">
+                <h2>Imagify</h2>
+                <h3 style="z-index: 30;">The internet's source for visuals.</h3>
+                <h5 class="last"> Powered by creators everywhere</h5>
+                <form>
+                    <input type="text" id="search-input" placeholder="Search for Images">
+                    <button id="search-button">Search</button>
+                </form>
+            </div>
+
+        </div> -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="border: 2px solid black;">
+            <div class="card-img-overlay">
+                <div class="card">
+                    <h2>Imagify</h2>
+                    <h3 style="z-index: 30;">The internet's source for visuals.</h3>
+                    <h5 class="last"> Powered by creators everywhere</h5>
+                    <form>
+                        <input type="text" id="search-input" placeholder="Search for Images">
+                        <button id="search-button">Search</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="carousel-item active">
+
+                <img src="images/deer.png" class="d-block w-100" style="height: 397px;" alt="...">
+
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100" style="height: 397px;" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmF0dXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100" style="height: 397px;" alt="...">
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1661956602868-6ae368943878?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                alt="A coffee cup and a pen on a desk">
+            <a href="https://unsplash.com/photos/lsdA8QpWN_A" target="_blank">A coffee cup and a pen on a desk</a>
+        </div>
+        <div class="search-result">
+            <img
+                src="https://plus.unsplash.com/premium_photo-1671995576545-a95e6ad57e04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60">
+            <a href="https://unsplash.com/photos/jYANB0AZJq0" target="_blank">A bunch of white balls floating in the air
+                photo</a>
+        </div>
+        <div class="search-result">
+            <img
+                src="https://images.unsplash.com/photo-1688499153976-7573901224ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60">
+            <a href="https://unsplash.com/photos/a-person-sitting-on-a-rock-in-the-woods-c8ex0DCKfv" target="_blank">A
+                person sitting on a rock in the woods</a>
+        </div>
+        <div class="search-result">
+            <img
+                src="https://images.unsplash.com/photo-1687579520758-1dcecbc2c02d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60">
+            <a href="https://unsplash.com/photos/a-close-up-of-a-green-leaf-on-a-wall-h8snS8g1-ew" target="_blank">A
+                close up of a green leaf on a wall</a>
+        </div>
+        <div class="search-result">
+            <img
+                src="https://images.unsplash.com/photo-1688627612038-39aa1dc17e01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60">
+            <a href="https://unsplash.com/photos/a-close-up-of-two-people-holding-hands-09PfNRfypzk" target="_blank">A
+                close up of two people holding hands</a>
+        </div>
+        <div class="search-result">
+            <img
+                src="https://plus.unsplash.com/premium_photo-1669863282929-d738752329a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80">
+            <a href="https://unsplash.com/photos/UqnIK2w8e68" target="_blank">A mountain range with snow photo-Winter
+                Image on Imagify</a>
+        </div>
+
+
+    </div>
+
+    <button id="show_more"> Show More</button>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Imagify", "Glimpse of Visuals"],
+            typeSpeed: 40,
+            backSpeed: 40,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>
